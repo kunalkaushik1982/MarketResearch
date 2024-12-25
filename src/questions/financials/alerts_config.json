@@ -1,0 +1,27 @@
+{
+    "decreasing_alert": {
+        "column_names": [
+            "Net Sales or Revenue",
+            "Operating Income",
+            "Net Income",
+            "Total Assets",
+            "Total Current Assets",
+            "Net Profit margin",
+            "Return on Equity (ROE)"
+        ]
+    },
+    "ratio_lower_than_value_alerts": [
+        {
+            "column_names": [
+                "Operating Profit Margin"
+            ],
+            "threshold": 0
+        },
+        {
+            "column_names": [
+                "Current Ratio"
+            ],
+            "threshold": 2
+        }
+    ]
+}
